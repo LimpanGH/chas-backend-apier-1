@@ -103,3 +103,10 @@ model User {
   - Lägg till metoden ``auth`` som middleware på valfri endpoint som verifierar ovan JWT och bara returnerar resultatet ifall den är giltig
 - Lägg till TypeScript och använd typning i hela applikatonen
 - Byt ut databasen till ``MongoDB`` istället för ``PostgreSQL``
+
+
+# Run
+- cd Del1-3-Linus: ```npm run dev```
+- Öppna pgAdmin4 (program på datorn)
+- Klicka på databasen -> Schemas -> Tables -> User.
+- Högerklicka på user och välj View/Edit Data, klicka på View All![alt text](<Del1-3-Linus/Screenshot 2024-08-27 at 12.00.14.png>)
